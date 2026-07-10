@@ -33,17 +33,11 @@ nav .logo-parent{
 }
 
 nav .logo-parent img {
-  width: 35px;  
+  width: 130px;  
 }
 
 
-.logo-text h2{
-    font-size: 30px;
-}
 
-.logo-text p{
-    font-size: 22px;
-}
 
 
 /* Menu */
@@ -203,7 +197,7 @@ nav .logo-parent img {
 /* Speaker Section Css END */
 
 
-/* Pricing Section */
+/* Pricing Section Css Start */
 
 .pricing-parent{
     margin: 100px auto !important;
@@ -319,4 +313,81 @@ nav .logo-parent img {
     border-radius: 6px;
     border: 1px solid blue;
     font-size: 16px;
+}
+
+
+/* Pricing Section Css END  */
+
+
+/* Footer Section */
+
+.footer-parent{
+    margin-top: 100px;
+    padding: 40px 0;
+   background: #04042d;
+}
+
+/* Top */
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Logo */
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+
+.logo-text h3{
+    font-size: 28px;
+}
+
+.logo-text p{
+    font-size: 18px;
+}
+
+/* Social */
+
+.footer-social{
+    display: flex;
+    gap: 18px;
+}
+
+.footer-social i {
+    font-size: 15px;
+    
+    color:white
+}
+
+.footer-social img:hover{
+    transform: scale(1.15);
+}
+
+/* Divider */
+
+.footer-parent hr{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 25px 0;
+}
+
+/* Bottom */
+
+.footer-bottom{
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: #666;
+    font-size: 15px;
 }
