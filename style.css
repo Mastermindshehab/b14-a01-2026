@@ -71,7 +71,7 @@ nav .logo-parent img {
     border-radius: 10px;
     background: #274ecc;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -203,3 +203,120 @@ nav .logo-parent img {
 /* Speaker Section Css END */
 
 
+/* Pricing Section */
+
+.pricing-parent{
+    margin: 100px auto !important;
+}
+
+/* Section Heading */
+
+.pricing-title{
+    text-align: center;
+    font-size:47px;
+    margin-bottom: 50px;
+}
+
+
+
+.pricing-title h2{
+    font-size: 47px;
+    color: #17263C;
+    margin-bottom: 10px;
+}
+
+.pricing-title p{
+    color: #757575;
+    font-size: 18px;
+}
+
+/* Pricing Card Parent */
+
+.pricing-card-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+/* Pricing Card */
+
+.pricing-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 28px;
+    background: #fff;
+}
+
+/* Active Card */
+
+.active-card{
+    background: #122033;
+    color: white;
+}
+
+.active-card hr{
+    border-color: rgba(255,255,255,.15);
+}
+
+.active-card p,
+.active-card li,
+.active-card span {
+    color: #d6d6d6 !important;
+}
+
+/* Category */
+
+.pricing-card span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #757575;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Price */
+
+.pricing-card h2{
+    font-size: 60px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Small Text */
+
+.pricing-card p{
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+/* Line */
+
+.pricing-card hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 25px 0;
+}
+
+/* List */
+
+.pricing-card ul{
+    list-style: disc;
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+
+.pricing-card ul li{
+    margin-bottom: 14px;
+    color: #444 ;
+    line-height: 1.1;
+}
+
+/* Buttons */
+
+.pricing-card button{
+    width: 100%;
+    padding: 14px 33px;
+    border-radius: 6px;
+    border: 1px solid blue;
+    font-size: 16px;
+}
