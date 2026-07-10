@@ -127,3 +127,79 @@ nav .logo-parent img {
 
 
 /* Hero Section Css END  */
+
+
+/* Speaker Section Css Start */
+
+.speaker-parent-root{
+
+    margin: 100px auto !important;
+
+   
+
+}
+
+.section-title{
+
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 60px;
+
+}
+
+.speaker-card-parent{
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 25px;
+
+}
+
+.speaker-card{
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+
+.speaker-card img{
+
+    width: 100%;
+    display: block;
+
+}
+
+.speaker-details{
+
+    padding: 20px;
+
+}
+
+.speaker-details span{
+
+    color: blue;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.speaker-details h3{
+
+    margin: 10px 0;
+
+    font-size: 27px;
+
+}
+
+.speaker-details p{
+
+    color: gray;
+
+}
+
+/* Speaker Section Css END */
+
+
