@@ -78,3 +78,52 @@ nav .logo-parent img {
 
 
 /* Navbar END CSS   */
+
+
+/* Hero Section Css Start */
+
+.hero-parent-root{
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay{
+    width: 100%;
+    
+    min-height: 700px;
+    background: rgba(0,0,0,.55);
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content{
+    max-width: 800px;
+      margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 72px;
+      font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 24px;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 40px;
+}
+
+
+/* Hero Section Css END  */
